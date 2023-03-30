@@ -5,11 +5,4 @@ spring:
   application:
     name: question-service
 
-  data:
-    mongodb:
-      database: question-service-db
-      username: rootuser
-      password: rootpass
-      authentication-database: admin
-      port: 27017
-      host: localhost
+# Database configuration has been externalized
